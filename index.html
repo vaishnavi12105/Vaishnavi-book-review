@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Vaishnavi's Bookreviews</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 50px 50px 0 50px;
+      background-color: #faf9f6;
+      min-height: 30vh;
+    }
+    .logo{
+      width:250px;
+    }
+    h1{
+      font-size:5rem;
+    }
+    footer{
+      text-align:right;
+      color:midnightblue;
+    }
+    .tile-image{
+      width:100px;
+      float:left;
+      margin-right:50px;
+    }
+    .left-card{
+      display:inline-block;
+      float:left;
+      width: 48%;
+      vertical-align: top;
+      margin-right:30px; 
+    }
+    .right-card{
+      display:inline-block;
+      float:left;
+      width: 48%;
+      vertical-align: top;
+      margin-bottom:20px;
+    }
+    .card-text{
+      font-size:1rem;
+    }
+    @media (max-width:700px){
+      .logo{
+        width:150px;
+      }
+      h1{
+        font-size:3rem;
+        text-align:center;
+      }
+      .left-card{
+        width:100%;
+        display:block;
+        margin-bottom: 30px;
+        text-align:justify;
+      }
+      .right-card{
+        width:100%;
+        display:block;
+        margin-bottom: 30px;
+        text-align:justify;
+      }
+      .left-card img {
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+      }
+      .right-card img {
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <img class="logo" src="./assets/images/logo1.png">
+    <h1>Chapter Reviews: Your Guide to the Best Books</h1>
+    <div class="left-card"><img class="tile-image" src="./assets/images/red queen.png">
+      <h2 class="card-title">Red Queen</h2>
+      <p class="card-text">Red Queen by Victoria Aveyard is a gripping fantasy that blends political intrigue with thrilling action.</br> 
+        The story follows Mare, a common girl who discovers she has dangerous powers in a world divided by blood red and silver. 
+        With unexpected twists and a strong heroine, it keeps readers on the edge of their seat.</p>
+    </div>
+
+    <div class="right-card"><img class="tile-image" src="./assets/images/neighbourhood.png">
+      <h2 class="card-title">People from my Neighbourhood</h2>
+      <p>People from My Neighbourhood by Hiromi Kawakami offers a beautifully quiet exploration of ordinary lives and small-town dynamics.
+         Through its charming, interconnected stories, it captures the subtleties of human relationships 
+         and the unexpected magic of everyday moments.</p>
+    </div>
+
+  </div>
+  <footer>
+    <p>Create. Develop. Design.</p>
+  </footer>
+</body>
+
+</html>
